@@ -10,7 +10,7 @@
          flex-direction: column;
      }
  }
-h1 p body {
+h1, p, body {
     margin: 0px;
 }
 h1, a {
@@ -44,9 +44,9 @@ h2 {
 }
 h2::before {
     content: "●";
-    color: rgb(97, 206, 249);
+    color: rgb(239, 111, 139);
 }
-#parent p:nth-child(4)::first-letter {
+#parent p:nth-of-type(2)::first-letter {
     font-weight: bold;
     color: rgb(97, 206, 249);
 }
@@ -64,7 +64,7 @@ a {
 a:visited {
     color:rgb(193, 234, 251) ;
 }
-a:active {
+a:hover {
     color: rgb(245, 178, 168)
 }
 
